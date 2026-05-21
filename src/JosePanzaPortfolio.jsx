@@ -175,46 +175,58 @@ const historyData = {
 const projectsData = {
   es: [
     {
-      title: "Plataforma Core & Switch Transaccional",
-      stack: "Java • jPOS • ISO-8583 • HSM",
-      desc: "Desarrollo de integraciones críticas para cajeros automáticos (ATMs Recicladores, transacciones en USD) y terminales POS en la red Dinelco. Implementación de criptografía simétrica en Hardware Security Modules (HSM).",
+      title: "Portal de Comercios 2.0 & Migración de Arquitectura Core",
+      stack: "NestJS • TypeScript • Node.js • PostgreSQL • Clean Architecture",
+      desc: 'Liderazgo técnico en la reingeniería y migración del ecosistema crítico "Portal de Comercios de BEPSA". Transición estratégica desde un monolito heredado en Express hacia una arquitectura distribuida basada en NestJS y TypeScript. Implementación de patrones de diseño avanzados, desacoplamiento de reglas de negocio, optimización de capas de persistencia y abstracción de bases de datos para garantizar escalabilidad horizontal y modularidad del sistema.',
     },
     {
-      title: "Ecosistema de Pagos QR e Integraciones",
-      stack: "NestJS • TypeScript • PostgreSQL • Prisma",
-      desc: "Arquitectura del módulo transaccional para la generación, procesamiento y reversión automática de pagos con código QR integrados directamente en portales comerciales y ATMs dinámicos.",
+      title: "Módulos Core: Fidelidad, Canje & Consulta Transaccional",
+      stack: "Java • jPOS • ISO-8583 • IBM DB2 • AS400 Systems",
+      desc: "Diseño y desarrollo de los servicios backend de misión crítica para el procesamiento analítico, consulta en tiempo real y canje automatizado de puntos del Sistema de Fidelidad de BEPSA S.A.E.C.A. Integración a nivel transaccional bajo especificaciones estrictas del estándar ISO-8583 con persistencia e interoperabilidad de baja latencia sobre bases de datos relacionales legadas DB2 en entornos IBM i (AS400).",
     },
     {
-      title: "Investigación IA y Procesamiento de Imágenes",
-      stack: "Python • Machine Learning • Multispectral Data",
-      desc: "Investigación académica avanzada enfocada en el análisis avanzado de imágenes multiespectrales de alta resolución y modelos predictivos para la detección automatizada de plagas agrícolas.",
+      title: "Switches Transaccionales e Integración de Redes Dinelco",
+      stack: "Java Core • Framework jPOS • HSM Cryptography • E2E Security",
+      desc: "Desarrollo e inyección de lógica financiera y mensajería transaccional para la red de ATMs y terminales POS de Dinelco. Ingeniería aplicada a cajeros automáticos de alta complejidad (ATMs Recicladores y flujos transaccionales multidivisa en USD). Orquestación de seguridad criptográfica simétrica mediante Hardware Security Modules (HSM Thales) para el cifrado de PIN blocks y autenticación segura de tramas financieras. Arquitectura del módulo transaccional para la generación, procesamiento y reversión automática de pagos con código QR integrados directamente en POS, portales comerciales y ATMs dinámicos para la red Dinelco.",
     },
     {
-      title: "Servicios de Automatización e Ingesta de Datos",
-      stack: "Node.js • Express • Buffer Pipelines • SQL",
-      desc: "Creación de motores distribuidos de procesamiento batch de archivos Excel de alta densidad con sincronización ACID a sistemas legados DB2 en AS400.",
+      title: "Plataformas Corporativas de Alta Demanda (Proyectos Konecta)",
+      stack:
+        "Java Enterprise • Spring Framework • Adalid • WildFly Server • JBoss",
+      desc: "Ingeniería de software full-stack para cuentas corporativas e institucionales gubernamentales de alta escala, incluyendo Núcleo Personal Paraguay y la Agencia Nacional de Evaluación y Acreditación de la Educación Superior (ANEAES). Implementación de sistemas robustos basados en Spring Framework y capas empresariales guiadas por la plataforma Adalid, desplegados sobre servidores de aplicaciones de misión crítica WildFly/JBoss con alta densidad de usuarios concurrentes.",
+    },
+    {
+      title: "Investigación Científica en IA y Procesamiento de Imágenes",
+      stack: "Python • Machine Learning • Multispectral Computer Vision",
+      desc: "Investigación académica y desarrollo de modelos predictivos avanzados basados en visión artificial computacional sobre matrices de datos multiespectrales de alta resolución. Diseño de algoritmos de clasificación automatizada orientados a la detección temprana y mitigación de plagas agrícolas de alto impacto.",
     },
   ],
   en: [
     {
-      title: "Core Transactional Switch Architecture",
-      stack: "Java • jPOS • ISO-8583 • HSM Thales",
-      desc: "Engineered financial switch features for automated teller machines (Recycler ATMs, USD processing) and POS terminals on the Dinelco Network. Handled hardware security module cryptographic processing layers.",
+      title: "Merchant Portal 2.0 & Core Architectural Migration",
+      stack: "NestJS • TypeScript • Node.js • PostgreSQL • Clean Architecture",
+      desc: 'Technical Leadership in the re-engineering and infrastructural migration of BEPSA\'s mission-critical "Merchant Portal". Spearheaded the strategic transition from a legacy Express monolith into a highly scalable distributed architecture powered by NestJS and TypeScript. Implemented domain-driven design principles, decoupled business rules, and optimized data persistence layers to guarantee horizontal scalability and high availability.',
     },
     {
-      title: "QR Payment & Merchant Gateways",
-      stack: "NestJS • TypeScript • PostgreSQL • Prisma",
-      desc: "Designed modern merchant integration endpoints for high-throughput QR code payment generation, callback verification pipelines, and transactional safety nets.",
+      title: "Core Financial Modules: Loyalty & Transactional Clearing",
+      stack: "Java • jPOS • ISO-8583 • IBM DB2 • AS400 Platforms",
+      desc: "Architecture and engineering of backend microservices for real-time computational processing, balance querying, and automated balance clearing within the BEPSA Loyalty System. Handled end-to-end integration conforming to strict ISO-8583 payment messaging specifications, ensuring low-latency data interoperability over legacy relational DB2 structures inside IBM i (AS400) mainframes.",
     },
     {
-      title: "AI & Multispectral Imagery Analytics",
-      stack: "Python • Machine Learning • Multispectral Data",
-      desc: "Academic and scientific research utilizing computer vision pipelines and deep learning algorithms over high-resolution data to automate crop pest identification.",
+      title: "Transactional Switch Engines & Dinelco Network Integrations",
+      stack: "Java Core • jPOS Framework • HSM Cryptography • E2E Security",
+      desc: "Developed and optimized underlying financial routing algorithms and transactional messaging layers for ATMs and POS terminals across the Dinelco Network. Engineered state machine workflows for complex banking endpoints (Recycler ATMs and multi-currency USD processing pipelines). Handled symmetric key cryptographic operations via Hardware Security Modules (HSM Thales) to ensure secure PIN block translations and payload signing. Transactional module architecture for the generation, processing and automatic reversal of payments with QR codes integrated directly into POS, commercial portals and dynamic ATMs for the Dinelco network.",
     },
     {
-      title: "Enterprise Ingestion & Streaming Pipelines",
-      stack: "Node.js • Express • Stream Buffers • IBM DB2",
-      desc: "Asynchronous streaming microservices engineered to ingest high-volume datasets from structured files down to legacy relational databases (DB2 on AS400 Systems).",
+      title: "Enterprise High-Throughput Platforms (Konecta Ecosystem)",
+      stack:
+        "Java Enterprise • Spring Framework • Adalid • WildFly Server • JBoss",
+      desc: "Full-stack software engineering delivered to blue-chip corporate accounts and national government institutions, including Núcleo Personal Paraguay and ANEAES. Developed robust stateful applications leveraging Spring Framework paired with Adalid corporate frameworks, deployed over mission-critical application servers like WildFly/JBoss to withstand massive concurrent user traffic.",
+    },
+    {
+      title: "AI-Driven Scientific Research & Computer Vision",
+      stack: "Python • Machine Learning • Multispectral Computer Vision",
+      desc: "Academic and applied research involving deep learning models tailored for multi-spectral high-resolution image analysis. Authored automated predictive categorization algorithms mapped to identify and isolate crop diseases under strict execution environments.",
     },
   ],
 };
@@ -236,10 +248,6 @@ export default function JosePanzaPortfolio() {
             <h1 className="text-xl font-black tracking-tight text-white">
               JOSE PANZA
             </h1>
-            <img
-              src={`${import.meta.env.BASE_URL}profile.jpg`}
-              alt="Jose Panza"
-            />
             <p className="text-xs text-cyan-400 font-mono">
               SYSTEMS_ENGINEER // LEAD_BE
             </p>
@@ -285,6 +293,13 @@ export default function JosePanzaPortfolio() {
       {/* Hero Section */}
       <section className="relative max-w-7xl mx-auto px-6 pt-16 pb-24 grid lg:grid-cols-12 gap-12 items-center">
         <div className="lg:col-span-7 space-y-6">
+          <div className="relative mb-6 h-40 w-40 rounded-full border-2 border-cyan-400/50 overflow-hidden shadow-2xl shadow-cyan-500/20">
+            <img
+              src={`${import.meta.env.BASE_URL}profile.jpg`}
+              alt="Jose Panza"
+              className="h-full w-full object-cover"
+            />
+          </div>
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-cyan-500/20 bg-cyan-500/5 text-cyan-400 font-mono text-xs tracking-wide">
             <span className="h-2 w-2 rounded-full bg-cyan-400 animate-ping" />
             {t.hero.badge}
@@ -319,9 +334,23 @@ export default function JosePanzaPortfolio() {
             <a
               href={`${import.meta.env.BASE_URL}Jose_Panza_CV.pdf`}
               download="Jose_Panza_CV.pdf"
-              className="px-4 py-2 border border-cyan-500 text-cyan-400 text-xs rounded"
+              className="px-6 py-3 rounded-2xl bg-white/10 border border-white/10 hover:bg-white/20 text-white transition-all font-semibold flex items-center gap-2"
             >
-              Download CV (PDF)
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5 text-cyan-400"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                />
+              </svg>
+              Descargar CV
             </a>
           </div>
         </div>
