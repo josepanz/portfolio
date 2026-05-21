@@ -2,7 +2,7 @@
 
 Este repositorio contiene el código fuente de mi sitio web de portafolio profesional y técnico. Diseñado bajo un enfoque **cyber-professional minimalista**, con arquitectura modular de componentes, alto rendimiento visual y un conmutador de idioma en tiempo real (EN/ES) integrado para entornos globales.
 
-🌐 **Demo en vivo:** [https://josepanz.github.io/TU-REPOSITORIO/](https://josepanz.github.io/TU-REPOSITORIO/)
+🌐 **Demo en vivo:** [https://josepanz.github.io/TU-REPOSITORIO/](https://josepanz.github.io/portfolio/)
 
 ---
 
