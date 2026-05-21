@@ -97,8 +97,16 @@ const technologies = [
       "TypeScript",
       "JavaScript",
       "REST APIs",
+      "SOAP APIs",
       "ISO-8583",
       "HSM",
+      "Python",
+      "C#",
+      ".Net Core",
+      "Visual Basic",
+      "C",
+      "Flutter",
+      "Dart",
     ],
   },
   {
@@ -115,7 +123,14 @@ const technologies = [
   },
   {
     category: "Databases",
-    items: ["PostgreSQL", "DB2 (AS400)", "SQL Server", "Oracle", "MySQL"],
+    items: [
+      "PostgreSQL",
+      "DB2 (AS400)",
+      "SQL Server",
+      "Oracle",
+      "MySQL",
+      "SQLite",
+    ],
   },
   {
     category: "Architecture",
@@ -132,22 +147,34 @@ const technologies = [
 const historyData = {
   es: [
     {
-      role: "Desarrollador Senior / Tech Lead Interino",
+      role: "Desarrollador Senior Backend / Tech Lead Interino",
       company: "BEPSA S.A.E.C.A",
       period: "Diciembre 2022 - Actualidad",
       desc: "Liderazgo de iniciativas técnicas backend y mentoría de ingenieros. Arquitectura y optimización de switches transaccionales financieros en Java (jPOS) bajo estándares ISO-8583 e integraciones criptográficas HSM Thales 9000. Orquestación e integración continua mediante Docker, Kubernetes, Jenkins y observabilidad con ELK Stack. Migración de microservicios utilizando Node.js con NestJS y bases de datos relacionales críticas (PostgreSQL y DB2 sobre AS400).",
     },
     {
-      role: "Desarrollador Pleno / Semi-Senior",
+      role: "Desarrollador Pleno / Semi-Senior Backend",
       company: "I.T ALIANZA S.A",
       period: "Noviembre 2021 - Diciembre 2022",
       desc: "Desarrollo backend de procesos transaccionales de misión crítica para el proyecto integral de reingeniería de la arquitectura transaccional de BEPSA S.A.E.C.A utilizando Java y jPOS.",
     },
     {
-      role: "Desarrollador Full Stack",
+      role: "Desarrollador Junior Full Stack",
       company: "KONECTA S.A",
       period: "Marzo 2021 - Noviembre 2021",
       desc: "Diseño e implementación de sistemas Full Stack mediante Java con Spring Framework, Javascript, servidores de aplicaciones WildFly y JBoss para cuentas institucionales de alta envergadura como Núcleo Personal y ANEAES.",
+    },
+    {
+      role: "Desarrollador Junior Backend",
+      company: "CAST S.R.L",
+      period: "Enero 2019 - Febrero 2021",
+      desc: "Desarrollo Java Android, desarrollo web y procesos en Java, Javascript y SQL para CAST Mobile y CAST Portal.",
+    },
+    {
+      role: "Soporte técnico • Help Desk",
+      company: "SYSTEC S.A",
+      period: "Diciembre 2016 - Enero 2019",
+      desc: "Soporte técnico. Mantenimiento, reparación e instalación de computadoras, impresoras. Conexiones de red, cableados y estaciones de trabajo para INTERFISA BANCO.",
     },
   ],
   en: [
@@ -164,10 +191,22 @@ const historyData = {
       desc: "Engineered critical transactional routing backend mechanisms for the baseline infrastructural re-engineering core project of BEPSA S.A.E.C.A leveraging Java and framework adapters.",
     },
     {
-      role: "Full Stack Developer",
+      role: "Junior Full Stack Developer",
       company: "KONECTA S.A",
       period: "March 2021 - November 2021",
       desc: "Full Stack engineering utilizing Java, Spring Framework, Javascript, and application servers like WildFly and JBoss for enterprise accounts including Personal Paraguay and ANEAES.",
+    },
+    {
+      role: "Junior Backend Developer",
+      company: "CAST S.R.L",
+      period: "January 2019 - February 2021",
+      desc: "Java Android development, web development and processes in Java, Javascript and SQL for CAST Mobile and CAST Portal.",
+    },
+    {
+      role: "Technical Support • Help Desk",
+      company: "SYSTEC S.A",
+      period: "December 2016 - January 2019",
+      desc: "Technical support. Maintenance, repair, and installation of computers and printers. Network connections, cabling, and workstations for INTERFISA BANCO.",
     },
   ],
 };
