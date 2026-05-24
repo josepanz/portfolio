@@ -275,7 +275,7 @@ export default function JosePanzaPortfolio() {
   const t = content[lang];
 
   return (
-    <div className="min-h-screen bg-[#030611] text-slate-100 font-sans selection:bg-cyan-500 selection:text-black antialiased">
+    <div className="min-h-screen bg-[#030611] text-slate-100 font-sans selection:bg-cyan-500 selection:text-black antialiased overflow-x-hidden relative">
       {/* Glow Effects */}
       <div className="absolute top-0 left-1/4 w-[500px] h-[500px] bg-cyan-500/10 rounded-full blur-[140px] pointer-events-none" />
       <div className="absolute top-[1200px] right-1/4 w-[600px] h-[600px] bg-blue-500/5 rounded-full blur-[160px] pointer-events-none" />
